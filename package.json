@@ -1,0 +1,25 @@
+{
+  "name": "yeap_logger",
+  "version": "1.0.0",
+  "description": "Logging tool",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --timeout=10000 lib/tsrc/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donDonald/yeap_logger.git"
+  },
+  "author": "Pavel Taranov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donDonald/yeap_logger/issues"
+  },
+  "homepage": "https://github.com/donDonald/yeap_logger#readme",
+  "dependencies": {
+    "concolor": "^1.0.2"
+  }
+}
